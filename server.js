@@ -169,6 +169,46 @@ let EventData = [
     {
         name : "Techinal Quiz",
         link :"https://csefest.d3m0n1k.engineer/quiz-csv/SOLO"
+    },
+    {
+        "name":"FIFA SOLO",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/FIFA"
+    },
+    {
+        "name":"NFS SOLO",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/NFS"
+    },
+    {
+        "name":"VALORANT GROUP",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/VALORANT"
+    },
+    {
+        "name":"COD MOBILE GROUP",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/COD"
+    },
+    {
+        "name":"MODERN WARFARE GROUP",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/MODERN_WARFARE"
+    },
+    {
+        "name":"PUBG MOBILE GROUP",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/PUBG"
+    },
+    {
+        "name":"TASKMASTER GROUP",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/TASKMASTER"
+    },
+    {
+        "name":"AQUAROBO GROUP",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/AQUAROBO"
+    },
+    {
+        "name":"LINE_FOLLOWER GROUP",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/LINE_FOLLOWER"
+    },
+    {
+        "name":"ROBO SOCCER GROUP",
+        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/ROBO_SOCCER"
     }
 ]
 app.get('/auth', (req, res) => {
