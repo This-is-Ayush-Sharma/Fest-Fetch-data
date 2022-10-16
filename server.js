@@ -211,6 +211,11 @@ let EventData = [
         "link":"https://csefest.d3m0n1k.engineer/gaming-csv/ROBO_SOCCER"
     }
 ]
+
+app.get('/',(req,res)=>{
+    return res.redirect('/auth');
+});
+
 app.get('/auth', (req, res) => {
     return res.render('data', {
         token: "",
