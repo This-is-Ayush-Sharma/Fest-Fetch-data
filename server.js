@@ -280,6 +280,6 @@ app.get('/FetchData', auth.isAuth, admin.isAdmin, (req, res) => {
     });
 })
 
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, () => {
     console.log("Finally the Admin app is live");
 })
