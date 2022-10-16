@@ -1,0 +1,16 @@
+<div>
+    <% EventData.forEach(data=>{ %>
+        <div class="card m-2">
+            <div class="card-body">
+                <h5 class="card-title" style="color: red;">
+                    "<%= data.name %>"
+                </h5>
+                <p class="card-text">Find the event registration file here!
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"><a href= "<%=data.link+'/'+token %>" target="_blank" rel="noopener noreferrer">Download File
+                        here</a></small>
+            </div>
+        </div>
+        <% }) %>
+</div>

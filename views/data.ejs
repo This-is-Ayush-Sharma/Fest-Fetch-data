@@ -1,0 +1,18 @@
+<%- include('partials/header'); %>
+<%- include('partials/navbar'); %>
+<%- include('partials/login'); %>
+
+<% if(token){ %>
+    <div class="container mt-3">
+        <%- include('partials/cards'); %>
+    </div>
+<%} else { %>
+    <%- include('partials/login'); %>
+    <div class="container mt-3">
+        <div class="d-flex justify-content-center">
+            <h1><%=message%></h1>
+        </div>
+    </div>
+<% } %>
+    
+<%- include('partials/footer'); %>
