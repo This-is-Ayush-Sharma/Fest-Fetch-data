@@ -75,7 +75,7 @@ let EventData = [
     },
       {
         name : "Musical Chair",
-        link :"hhttps://csefest.d3m0n1k.engineer/musical-chair-csv/SOLO"
+        link :"https://csefest.d3m0n1k.engineer/musical-chair-csv/SOLO"
     },
       {
         name : "Rangoli",
