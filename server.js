@@ -196,19 +196,19 @@ let EventData = [
     },
     {
         "name":"TASKMASTER GROUP",
-        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/TASKMASTER"
+        "link":"https://csefest.d3m0n1k.engineer/robotics-event-csv/TASKMASTER"
     },
     {
         "name":"AQUAROBO GROUP",
-        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/AQUAROBO"
+        "link":"https://csefest.d3m0n1k.engineer/robotics-event-csv/AQUAROBO"
     },
     {
         "name":"LINE_FOLLOWER GROUP",
-        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/LINE_FOLLOWER"
+        "link":"https://csefest.d3m0n1k.engineer/robotics-event-csv/LINE_FOLLOWER"
     },
     {
         "name":"ROBO SOCCER GROUP",
-        "link":"https://csefest.d3m0n1k.engineer/gaming-csv/ROBO_SOCCER"
+        "link":"https://csefest.d3m0n1k.engineer/robotics-event-csv/ROBO_SOCCER"
     }
 ]
 
