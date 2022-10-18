@@ -217,14 +217,14 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/auth', (req, res) => {
+    if(req.headers.cookie && req.headers.cookie.split("token=")[1])
+    return res.redirect('/FetchData');
     return res.render('data', {
         token: "",
         message: 'Please Login First'
     });
 });
 app.post('/login', async (req, res) => {
-    if(req.headers.cookie.split("token=")[1])
-    return res.redirect('/FetchData');
     const loginData = {
         email: req.body.email,
         password: req.body.password
