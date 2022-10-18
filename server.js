@@ -223,17 +223,20 @@ app.get('/auth', (req, res) => {
     });
 });
 app.post('/login', async (req, res) => {
+    if(req.headers.cookie.split("token=")[1])
+    return res.redirect('/FetchData');
     const loginData = {
         email: req.body.email,
         password: req.body.password
     }
     await axios.post('https://csefest.d3m0n1k.engineer/login', loginData).then(data => {
         res.cookie("token", data.data.token);
-        return res.render('data', {
-            token: data.data.token,
-            message: "",
-            EventData
-        });
+        return res.redirect('/FetchData');
+        // return res.render('data', {
+        //     token: data.data.token,
+        //     message: "",
+        //     EventData
+        // });
     })
         .catch(err => {
             if (err.response.status === 404) {
